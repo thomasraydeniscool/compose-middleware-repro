@@ -1,0 +1,31 @@
+{
+  "name": "compose-middleware-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasraydeniscool/compose-middleware-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasraydeniscool/compose-middleware-repro/issues"
+  },
+  "homepage": "https://github.com/thomasraydeniscool/compose-middleware-repro#readme",
+  "dependencies": {
+    "compose-middleware": "5.0.1",
+    "express": "4.17.1",
+    "express-bearer-token": "2.4.0",
+    "express-jwt": "6.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.8",
+    "@types/express-jwt": "0.0.42",
+    "typescript": "4.0.2"
+  }
+}
